@@ -1,5 +1,5 @@
-name: 肖航课题组  Xiao Research Group
-url: https://xiaohang007.github.io/
+name: 我的个人空间  My Personal Space
+url: https://GaoZhe0534.github.io/
 
 exclude: [bibble, README.md, Makefile, screenshot.png]
 
@@ -9,18 +9,15 @@ highlighter: pygments
 # The path structure for blog posts.
 permalink: /blog/:year/:month/:day/:title.html
 encoding: utf-8
-# Sections on the "people" page.
+# Sections on the "car" page.
 roles:
-  - key: faculty
-    name: 教师 Faculty
-  - key: grad
-    name: 研究生 Graduate Students
-  - key: ugrad
-    name: 本科生 Undergraduate Students
-  - key: collab
-    name: 合作者 Collaborators
-
-
+  - key: car
+    name: 轿车 Volvo S90
+  - key: station wagon
+    name: 旅行车 Volvo V90
+  - key: sport utility vehicle
+    name: SUV Volvo XC90
+    
 # Number of news stories on the front page.
 front_page_news: 8
 
@@ -34,9 +31,9 @@ collections:
 
 # Navigation bar links.
 navigation:
-  - title: 主页 Home
+  - title: 个人 Home
     link: /
-  - title: 科研项目 Research
-    link: /research.html
-  - title: 论文 Publications
-    link: /publications.html
+  - title: 发展史 Development
+    link: /development.html
+  - title: 车型 Vehicle
+    link: /vehicle.html
